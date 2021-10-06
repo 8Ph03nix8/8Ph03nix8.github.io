@@ -3,22 +3,15 @@
 
 <head>
 <style type="text/css">
-!-- Style8 for symmetry of the buttons -->
-.style8 {
-				vertical-align: super;
-				width: 238px; height: 60px
-}
+
 .style2 {
 				border-style: solid;
 				border-width: 0px;
 				background-color: #b0b0b0;
 }
 .style3 {
-				
 				vertical-align: top;
-			
 }
-
 .style4 {
 				border-color: #b0b0b0;
 				border-width: 0;
@@ -27,20 +20,12 @@
 				border: 1px solid #b0b0b0;
 				background-color: #b0b0b0;
 }
-
 .style6 {
 				text-align: center;
-}
-.style7 {
-				border-width: 0px;
-				background-color: #b0b0b0;
-}
-
 }
 .style9 {
 				text-align: right;
 }
-
 a {
 				color: #666666;
 }
@@ -53,66 +38,80 @@ a:active {
 a:hover {
 				color: #666666;
 }
-
 .style10 {
 				font-family: "Segoe UI Black";
 }
+.style11 {
+				text-align: left;
+}
+.row {
+  display: flex;
+}
 
+.row div {
+  width: 50%;
+}
+
+div {
+  margin: 20px;
+}
+
+img {
+  width:100%
+}
 </style>
 <title>Home | P3X</title>
 </head>
 
-
-
 <body style="color: #000000; background-color: #666666">
- 
-<table style="width: 99%; height: 10%" class="style7" align="center" cellspacing="0" cellpadding="0">
+
+<table style="width: 99%; height: 10%" class="style5" align="center" cellspacing="0" cellpadding="0">
 				<tr>
 								<td style="width: 33%" class="style9">
-									<a href="projects/">
-									
-									<img src="UI_Images/Button_Top_L_WT.png" class="style8" height="100" style="float: right" />
-									</a></td>
+								<a href="projects/">
+								<img src="UI_Images/Button_Top_L_WT.png" class="style8" height="100px" style="float: right" />
+								</a></td>
 								<td style="width: 33%" valign="top" class="style6">
 								<img src="UI_Images/header%20logo.png" class="style3" /></td>
-								<td style="width: 33%">
-								<a href="about-me">
-									<img src="UI_Images/Button_Top_R_WT.png" class="style8" height="100" style="float: left" /></a></td>
+								<td style="width: 33%"><a href="about-me">
+								<img src="UI_Images/Button_Top_R_WT.png" class="style8" height="100px" style="float: left" /></a></td>
 				</tr>
 </table>
-<table style="width: 99%; height: 480px;" align="center" class="style4" cellspacing="0">
+<table style="width: 99%; height: 480px;" align="center" class="style5" cellspacing="0">
 				<tr>
 								<td style="height: 443px;" class="style2"></td>
 								<td style="height: 443px; width: 90%" class="style5">
 								<table style="width: 100%" align="center">
 												<tr>
-													<td class="style10" style="width: 169px">Recent Projects:</td>
-													<td></td>
-													<td style="width: 170px"></td>
+																<td class="style10" style="width: 169px">
+																Recent Projects:</td>
+																<td></td>
+																<td style="width: 170px">
+																</td>
 												</tr>
 												<tr>
-																<td class="style6" style="width: 169px">
-																&nbsp;</td>
-																<td class="style6">
-																<a href="/projects/lonely-knight"&nbsp;>
-																<img src="tartalom/projects/lonely-knight/Something.png" width="50%" /></a></td>
-																<td class="style6">
-																&nbsp;</td>
+																<td class="style11" colspan="3">
+																<div class="container">
+																				<div class="row">
+																								<div class="first">
+																												<img src="tartalom/projects/lonely-knight/Something.png" class="img-responsive" style="max-width:500px" alt=""/> </div>
+																								<div class="two">
+																												 <img src="tartalom/projects/lonely-knight/Something.png" class="img-responsive" style="max-width:500px" alt=""/> </div>
+																				</div>
+																</div>
+																</td>
 												</tr>
 												<tr>
-																<td class="style6" style="width: 169px">
-																&nbsp;</td>
-																<td class="style6">
-																&nbsp;</td>
-																<td class="style6">
-																&nbsp;</td>
+																<td class="style6" style="width: 169px">&nbsp;</td>
+																<td class="style6">&nbsp;</td>
+																<td class="style6">&nbsp;</td>
 												</tr>
 								</table>
 								</td>
 								<td style="height: 443px" class="style2"></td>
 				</tr>
-				</table>
- 
+</table>
+
 </body>
 
 </html>
